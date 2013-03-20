@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.maestrodev.parent</groupId>
+  <artifactId>maestrodev-parent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>maestrodev-parent</name>
+  <description>MaestroDev parent poms</description>
+  
+  <scm>
+    <connection>scm:git:ssh://git@github.com:maestrodev/maestrodev-parent.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/maestrodev/maestrodev-parent.git</developerConnection>
+    <url>https://github.com/maestrodev/maestro</url>
+  </scm>
+  
+  <modules>
+    <module>java-parent</module>
+    <module>ruby-plugins</module>
+  </modules>
+  
+  <repositories>
+    <repository>
+      <id>maestrodev</id>
+      <url>https://repo.maestrodev.com/archiva/repository/all/</url>
+      <snapshots>
+        <enabled>true</enabled>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+      <releases>
+        <enabled>true</enabled>
+        <checksumPolicy>fail</checksumPolicy>
+      </releases>
+    </repository>
+  </repositories>
+</project>
