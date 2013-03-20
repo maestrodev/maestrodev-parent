@@ -3,22 +3,12 @@
   <parent>
     <groupId>com.maestrodev.parent</groupId>
     <artifactId>java-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
   </parent>
   <artifactId>java-plugins</artifactId>
   <packaging>pom</packaging>
   <name>java-plugins</name>
   <description>Maestro Java plugins parent.</description>
-  <distributionManagement>
-    <repository>
-      <id>maestro-deploy</id>
-      <url>https://repo.maestrodev.com/archiva/repository/com.maestrodev.lucee.releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>maestro-deploy</id>
-      <url>https://repo.maestrodev.com/archiva/repository/com.maestrodev.lucee.snapshots/</url>
-    </snapshotRepository>
-  </distributionManagement>
   <build>
     <resources>
       <resource>

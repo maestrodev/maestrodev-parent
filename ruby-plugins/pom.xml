@@ -3,21 +3,11 @@
   <parent>
     <groupId>com.maestrodev</groupId>
     <artifactId>maestrodev-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
   </parent>
   <artifactId>ruby-plugins</artifactId>
   <packaging>pom</packaging>
   <name>ruby-plugins</name>
-  <distributionManagement>
-    <repository>
-      <id>maestro-deploy</id>
-      <url>https://repo.maestrodev.com/archiva/repository/public-releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>maestro-deploy</id>
-      <url>https://repo.maestrodev.com/archiva/repository/public-snapshots/</url>
-    </snapshotRepository>
-  </distributionManagement>
   <build>
     <pluginManagement>
 	    <plugins>

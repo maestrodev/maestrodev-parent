@@ -2,10 +2,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.maestrodev.parent</groupId>
   <artifactId>maestrodev-parent</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>maestrodev-parent</name>
   <description>MaestroDev parent poms</description>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <slf4j.version>1.5.8</slf4j.version>   
+  </properties>
   
   <scm>
     <connection>scm:git:ssh://git@github.com:maestrodev/maestrodev-parent.git</connection>
