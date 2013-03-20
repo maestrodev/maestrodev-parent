@@ -29,7 +29,6 @@
     <module>java-plugins</module>    
   </modules>
   
-  
   <dependencyManagement>
     <dependencies>
       <dependency>
