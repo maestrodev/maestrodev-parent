@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.maestrodev</groupId>
   <artifactId>maestrodev-parent</artifactId>
-  <version>1-SNAPSHOT</version>
+  <version>1</version>
   <packaging>pom</packaging>
   <name>maestrodev-parent</name>
   <description>MaestroDev parent poms</description>
